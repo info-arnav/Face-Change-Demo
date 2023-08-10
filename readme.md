@@ -16,7 +16,8 @@ Save the above file in the repo directory with the name inswapper_128.onnx
 
 ```
 pip install -r requirements.txt
-python demo.py
+python demo01.py
+python demo01.py
 ```
 
 The images in the demo.py file can be changed. The first parameter is the group picutre and the second parameter is array of faces that you want to use in order to replace.
