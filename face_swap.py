@@ -67,8 +67,6 @@ def swap(new_face,image):
     target_frame = image
     reference_face = get_one_face(target_frame, reference_face_position)
     result = process_frame(source_face, reference_face, target_frame)
-    plt.imshow(result[:,:,::-1])
-    plt.show()
     return result
 
 def face_image_resize(img, w,h):

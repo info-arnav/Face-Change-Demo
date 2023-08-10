@@ -2,3 +2,12 @@ test/
 env/
 __pycache__/
 inswapper_128.onnx
+pyvenv.cfg
+lib64/
+lib64/*
+lib/
+bin/
+frames/*
+middleware/*
+share/
+insightface
