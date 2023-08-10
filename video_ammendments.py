@@ -60,6 +60,8 @@ def action(encodings, dictionary, face, frame, img,x,y,w,h):
     matched = result[1]
     if not exists:
         encodings.append(encoding)
+        plt.imshow(face[:,:,::-1])
+        plt.show()
         if int(input("Would you like to change this face ? 0/1")):
             dictionary[len(encodings)-1] = cv2.imread(input("Path to new face : "))
     if matched in dictionary.keys():
