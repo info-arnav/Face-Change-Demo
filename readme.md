@@ -15,6 +15,8 @@ Save the above file in the repo directory with the name inswapper_128.onnx
 # Execution
 
 ```
+conda create --name Facechange python=3.7
+conda activate Facechange
 pip install -r requirements.txt
 python demo01.py
 python demo01.py
